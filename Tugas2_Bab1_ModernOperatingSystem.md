@@ -35,11 +35,9 @@ affect control of the machine or do I/O )Input/Output" are forbidden to user-mod
 programs. We will come back to the difference between kernel mode and user
 mode repeatedly throughout this book. It plays a crucial role in how operating systems work.</p>
 
-<center>
 
 ![Gambar](foto/foto1_mos.jpeg)
 
-</center>
 
 <p align ="justify">
 The user interface program, shell or GUI, is the lowest level of user-mode software, and allows the user to start other programs, such as a Web browser, email
