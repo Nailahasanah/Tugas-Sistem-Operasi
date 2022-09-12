@@ -161,11 +161,10 @@ care) how much trouble they are causing for the software. One of the major tasks
 of the operating system is to hide the hardware and present programs (and their
 programmers) with nice, clean, elegant, consistent, abstractions to work with instead. Operating systems turn the ugly into the beautiful, as shown in Fig. 1-2.</p>
 
-<center>
+<p align="center">
+    <img src="foto/foto2_mos.jpeg" >
+</p>
 
-![Gambar](foto/foto2_mos.jpeg)
-
-</center>
 
 <p align ="justify">
 It should be noted that the operating system’s real customers are the application programs (via the application programmers, of course). They are the ones
@@ -326,7 +325,7 @@ operating system), which read the first job from tape and ran it. The output was
 written onto a second tape, instead of being printed. After each job finished, the
 operating system automatically read the next job from the tape and began running it.</p>
 
-![Gambar](foto/foto3_mos.jpeg)
+
 
 <p align ="justify">
 When the whole batch was done, the operator removed the input and output
@@ -355,8 +354,9 @@ System) and IBSYS, IBM’s operating system for the 7094.</p>
 By the early 1960s, most computer manufacturers had two distinct, incompatible, product lines. On the one hand, there were the word-oriented, large-scale scientific computers, such as the 7094, which were used for industrial-strength numerical calculations in science and engineering. On the other hand, there were the character-oriented, commercial computers, such as the 1401, which were widely
 used for tape sorting and printing by banks and insurance companies.</p>
 
-![Gambar](foto/foto_4_mos.jpeg)
-
+<p align="center">
+    <img src="foto/foto4_mos.jpeg" >
+</p>
 <p align ="justify">
 Developing and maintaining two completely different product lines was an expensive proposition for the manufacturers. In addition, many new computer customers initially needed a small machine but later outgrew it and wanted a bigger
 machine that would run all their old programs, but faster.</p>
@@ -424,7 +424,10 @@ Having multiple jobs safely in memory at once requires special hardware to prote
 each job against snooping and mischief by the other ones, but the 360 and other
 third-generation systems were equipped with this hardware.
 </p>
-![Gambar](foto/foto5_mos.jpeg)
+
+<p align="center">
+    <img src="foto/foto5_mos.jpeg" >
+</p>
 
 <p align ="justify">
 Another major feature present in third-generation operating systems was the
@@ -822,11 +825,9 @@ very compact summary. Many books have been written on the subject of computer
 hardware and computer organization. Two well-known ones are by Tanenbaum
 and Austin (2012) and Patterson and Hennessy (2013).</p>
 
-<center>
-
-![Gambar](foto/foto6_mos.jpeg)
-
-</center>
+<p align="center">
+    <img src="foto/foto6_mos.jpeg" >
+</p>
 
 ## 1.3.1 Processors
 
@@ -883,7 +884,9 @@ executed, even if the preceding instruction was a conditional branch that was ta
 Pipelines cause compiler writers and operating system writers great headaches because they expose the complexities of the underlying machine to them and they
 have to deal with them.</p>
 
-![Gambar](foto/foto7_mos.jpeg)
+<p align="center">
+    <img src="foto/foto7_mos.jpeg" >
+</p>
 
 <p align ="justify">
 Even more advanced than a pipeline design is a superscalar CPU, shown in
@@ -977,10 +980,9 @@ polygons in graphics applications. They are not so good at serial tasks. They ar
 also hard to program. While GPUs can be useful for operating systems (e.g., encryption or processing of network traffic), it is not likely that much of the operating
 system itself will run on the GPUs.</p>
 
-<center>
-
-![gambar](foto/foto8_mos.jpeg)
-</center>
+<p align="center">
+    <img src="foto/foto8_mos.jpeg" >
+</p>
 
 ## 1.3.2 Memory
 
@@ -998,11 +1000,9 @@ there is no delay in accessing them. The storage capacity available in them is t
 1 KB in both cases. Programs must manage the registers (i.e., decide what to keep
 in them) themselves, in software.</p>
 
-<center>
-
-![Gambar](foto/foto9_mos.jpeg)
-
-</center>
+<p align="center">
+    <img src="foto/foto9_mos.jpeg" >
+</p>
 
 <p align ="justify">
 Next comes the cache memory, which is mostly controlled by the hardware.
@@ -1107,11 +1107,9 @@ of magnitude cheaper than RAM per bit and often two orders of magnitude larger
 as well. The only problem is that the time to randomly access data on it is close to
 three orders of magnitude slower. The reason is that a disk is a mechanical device,as shown in Fig. 1-10.</p>
 
-<center>
-
-![Gambar](foto/foto10_mos.jpeg)
-
-</center>
+<p align="center">
+    <img src="foto/foto10_mos.jpeg" >
+</p>
 
 <p align ="justify">
 A disk consists of one or more metal platters that rotate at 5400, 7200, 10,800
@@ -1250,7 +1248,10 @@ chip using certain bus lines in step 2. If the interrupt controller is ready to 
 the interrupt (which it may not be if it is busy handling a higher-priority one), it asserts a pin on the CPU chip telling it, in step 3. In ste puts the number of the device on the bus so the CPU can read it and know which
 device has just finished (many devices may be running at the same time).</p>
 
-![Gambar](foto/foto11_mos.jpeg)
+<p align="center">
+    <img src="foto/foto11_mos.jpeg" >
+</p>
+
 <p align ="justify">
 Once the CPU has decided to take the interrupt, the program counter and PSW
 are typically then pushed onto the current stack and the CPU switched into kernel
@@ -1287,7 +1288,10 @@ to the breaking point. Something had to give. As a result, additional buses were
 added, both for faster I/O devices and for CPU-to-memory traffic. As a consequence of this evolution, a large x86 system currently looks something like
 Fig. 1-12.</p>
 
-![Gambar](foto/foto12_mos.jpeg)
+<p align="center">
+    <img src="foto/foto12_mos.jpeg" >
+</p>
+
 <p align ="justify">
 This system has many buses (e.g., cache, memory, PCIe, PCI, USB, SATA, and
 DMI), each with a different transfer rate and function. The operating system must
@@ -1600,11 +1604,9 @@ get some job done often need to communicate with one another and synchronize
 their activities. This communication is called interprocess communication, and
 will be addressed in detail in Chap. 2.</p>
 
-<center>
-
-![Gambar](foto/foto13_mos.jpeg)
-
-</center>
+<p align="center">
+    <img src="foto/foto12_mos.jpeg" >
+</p>
 
 <p align ="justify">
 Other process system calls are available to request more memory (or release
@@ -1683,11 +1685,9 @@ directories. Calls are also provided to put an existing file in a directory and 
 Fig. 1-14.</p>
 
 
-<center>
-
-![Gambar](foto/foto14_mos.jpeg)
-
-</center>
+<p align="center">
+    <img src="foto/foto14_mos.jpeg" >
+</p>
 
 <p align ="justify">
 The process and file hierarchies both are organized as trees, but the similarity
@@ -1739,11 +1739,9 @@ able to access these files is not as serious as it at first seems: file systems 
 always mounted on empty directories.) If a system contains multiple hard disks,
 they can all be mounted into a single tree as well.</p>
 
-<center>
-
-![Gambar](foto/foto15_mos.jpeg)
-
-</center>
+<p align="center">
+    <img src="foto/foto15_mos.jpeg" >
+</p>
 
 <p align ="justify">
 Another important concept in UNIX is the special file. Special files are provided in order to make I/O devices look like files. That way, they can be read and
@@ -1765,11 +1763,9 @@ process can discover that the output file it is writing on is not really a file,
 pipe, is by making a special system call. File systems are very important. We will
 have much more to say about them in Chap. 4 and also in Chaps. 10 and 11.</p>
 
-<center>
-
-![Gambar](foto/foto16_mos.jpeg)
-
-</center>
+<p align="center">
+    <img src="foto/foto16_mos.jpeg" >
+</p>
 
 ## 1.5.4 Input/Output
 <p align ="justify">
@@ -2070,11 +2066,9 @@ register (step 5). Then it executes a TRAP instruction to switch from user mode 
 kernel mode and start execution at a fixed address within the kernel (step 6). The
 TRAP instruction is actually fairly similar to the procedure-call instruction in the </p>
 
-<center>
-
-![Gambar](foto/foto17_mos.jpeg)
-
-</center>
+<p align="center">
+    <img src="foto/foto17_mos.jpeg" >
+</p>
 
 <p align ="justify">
 sense that the instruction following it is taken from a distant location and the return
@@ -2142,11 +2136,9 @@ value, which is zero in the child and equal to the child’s PID (Process IDenti
 in the parent. Using the returned PID, the two processes can see which one is the
 parent process and which one is the child process.</p>
 
-<center>
-
-![Gambar](foto/foto18_mos.jpeg)
-
-</center>
+<p align="center">
+    <img src="foto/foto18_mos.jpeg" >
+</p>
 
 <p align ="justify">
 In most cases, after a fork, the child will need to execute different code from
@@ -2172,11 +2164,9 @@ is exec, but several library procedures call it with different parameters and sl
 different names. We will treat these as system calls here.) A highly simplified shell
 illustrating the use of fork, waitpid, and execve is shown in Fig. 1-19.</p>
 
-<center>
-
-![Gambar](foto/foto19_mos.jpeg)
-
-</center>
+<p align="center">
+    <img src="foto/foto19_mos.jpeg" >
+</p>
 
 <p align ="justify">
 In the most general case, execve has three parameters: the name of the file to
@@ -2241,11 +2231,9 @@ To read or write a file, it must first be opened. This call specifies the file n
 to be opened, either as an absolute path name or relative to the working directory,
 as well as a code of O RDONLY, O WRONLY, or O RDWR, meaning open for reading, writing, or both. To create a new file, the O CREAT parameter is used.</p>
 
-<center>
-
-![Gambar](foto/foto20_mos.jpeg)
-
-</center>
+<p align="center">
+    <img src="foto/foto20_mos.jpeg" >
+</p>
 
 <p align ="justify">
 The file descriptor returned can then be used for reading or writing. Afterward, the
@@ -2295,11 +2283,9 @@ note. Thereafter, /usr/jim/memo and /usr/ast/note refer to the same file. As an
 aside, whether user directories are kept in /usr, /user, /home, or somewhere else is
 simply a decision made by the local system administrator.</p>
 
-<center>
-
-![Gambar](foto/foto21_mos.jpeg)
-
-</center>
+<p align="center">
+    <img src="foto/foto21_mos.jpeg" >
+</p>
 
 <p align ="justify">
 Understanding how link works will probably make it clearer what it does.
@@ -2333,11 +2319,9 @@ where the first parameter is the name of a block special file for USB drive 0, t
 second parameter is the place in the tree where it is to be mounted, and the third
 parameter tells whether the file system is to be mounted read-write or read-only.</p>
 
-<center>
-
-![Gambar](foto/foto22_mos.jpeg)
-
-</center>
+<p align="center">
+    <img src="foto/foto22_mos.jpeg" >
+</p>
 
 <p align ="justify">
 After the mount call, a file on drive 0 can be accessed by just using its path
@@ -2452,12 +2436,9 @@ The Win32 interface does not have links to files, mounted file systems, security
 Win32 has a huge number of other calls that UNIX does not have, especially for
 managing the GUI. Windows Vista has an elaborate security system and also supports file links. Windows 7 and 8 add yet more features and system calls.</p>
 
-<center>
-
-![Gambar](foto/foto23_mos.jpeg)
-
-</center>
-
+<p align="center">
+    <img src="foto/foto23_mos.jpeg" >
+</p>
 <p align ="justify">
 One last note about Win32 is perhaps worth making. Win32 is not a terribly uniform or consistent interface. The main culprit here was the need to be backward compatible with the previous 16-bit interface used in Windows 3.x.</p>
 
@@ -2518,11 +2499,9 @@ are called shared libraries. In Windows they are called DLLs (Dynamic-Link
 Libraries). They hav e file extension .dll and the C:\Windows\system32 directory
 on Windows systems has well over 1000 of them.</p>
 
-<center>
-
-![Gambar](foto/foto24_mos.jpeg)
-
-</center>
+<p align="center">
+    <img src="foto/foto24_mos.jpeg" >
+</p>
 
 ## 1.7.2 Layered Systems
 
@@ -2539,11 +2518,9 @@ which could be programmed without having to worry about the fact that multiple
 processes were running on a single processor. In other words, layer 0 provided the
 basic multiprogramming of the CPU.</p>
 
-<center>
-
-![Gambar](foto/foto25_mos.jpeg)
-
-</center>
+<p align="center">
+    <img src="foto/foto25_mos.jpeg" >
+</p>
 
 <p align ="justify">
 Layer 1 did the memory management. It allocated space for processes in main
@@ -2631,11 +2608,9 @@ Outside the kernel, the system is structured as three layers of processes all ru
 user mode, they do not have physical access to the I/O port space and cannot issue
 I/O commands directly. Instead, to program an I/O device, the driver builds a structure telling which values to write to which I/O ports and makes a kernel call telling.</p>
 
-<center>
-
-![Gambar](foto/foto26_mos.jpeg)
-
-</center>
+<p align="center">
+    <img src="foto/foto26_mos.jpeg" >
+</p>
 
 <p align ="justify">
 the kernel to do the write. This approach means that the kernel can check to see
@@ -2695,11 +2670,9 @@ As far as the client is concerned, the same thing happens in both cases: request
 sent and replies come back. Thus the client-server model is an abstraction that can
 be used for a single machine or for a network of machines.</p>
 
-<center>
-
-![Gambar](foto/foto27_mos.jpeg)
-
-</center>
+<p align="center">
+    <img src="foto/foto27_mos.jpeg" >
+</p>
 
 <p align ="justify">
 machines elsewhere running as servers. In fact, much of the Web operates this
@@ -2729,11 +2702,9 @@ bare hardware and does the multiprogramming, providing not one, but several virt
 other operating systems, these virtual machines are not extended machines, with
 files and other nice features. Instead, they are exact copies of the bare hardware, including kernel/user mode, I/O, interrupts, and everything else the real machine has.</p>
 
-<center>
-
-![gambar](foto/foto28_mos.jpeg)
-
-</center>
+<p align="center">
+    <img src="foto/foto28_mos.jpeg" >
+</p>
 
 <p align ="justify">
 Because each virtual machine is identical to the true hardware, each one can run any operating system that will run directly on the bare hardware. Different virtual machines can, and frequently do, run different operating systems. On the original IBM VM/370 system, some ran OS/360 or one of the other large batch or transaction-processing operating systems, while others ran a single-user, interactive
@@ -2784,11 +2755,9 @@ situation is illustrated in Fig. 1-29(a), where the term ‘‘virtual machine m
 has been renamed type 1 hypervisor, which is commonly used nowadays because ‘‘virtual machine monitor’’ requires more keystrokes than people are prepared to
 put up with now. Note that many authors use the terms interchangeably though.</p>
 
-<center>
-
-![Gambar](foto/foto29_mos.jpeg)
-
-</center>
+<p align="center">
+    <img src="foto/foto29_mos.jpeg" >
+</p>
 
 <p align ="justify">
 While no one disputes the attractiveness of virtual machines today, the problem
@@ -3006,11 +2975,9 @@ an executable program, traditionally called a.out on UNIX systems. The various
 components of this process are illustrated in Fig. 1-30 for a program with three C
 files and two header files. Although we have been discussing operating system development here, all of this applies to developing any large program.</p>
 
-<center>
-
-![Gambar](foto/foto30_mos.jpeg)
-
-</center>
+<p align="center">
+    <img src="foto/foto30_mos.jpeg" >
+</p>
 
 ## 1.8.4 The Model of Run Time
 <p align ="justify">
@@ -3147,13 +3114,9 @@ units greater than 1 capitalized. Thus a 1-TB database occupies 1012 bytes of st
 micro both begin with the letter ‘‘m,’’ a choice had to be made. Normally, ‘‘m’’ is
 for milli and ‘‘μ’’ (the Greek letter mu) is for micro.</p>
 
-<center>
-
-![Gambar](foto/foto31_mos.jpeg)
-
-</center>
-
-
+<p align="center">
+    <img src="foto/foto31_mos.jpeg" >
+</p>
 
 <p align ="justify">
 It is also worth pointing out that, in common industry practice, the units for
