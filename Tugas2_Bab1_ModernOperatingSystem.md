@@ -35,8 +35,10 @@ affect control of the machine or do I/O )Input/Output" are forbidden to user-mod
 programs. We will come back to the difference between kernel mode and user
 mode repeatedly throughout this book. It plays a crucial role in how operating systems work.</p>
 
+<p align="center">
+    <img src="foto/foto1_mos.jpeg" >
+</p>
 
-![Gambar](foto/foto1_mos.jpeg)
 
 
 <p align ="justify">
