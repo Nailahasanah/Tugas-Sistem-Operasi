@@ -33,7 +33,7 @@ Selain keempat komponen di atas, Avi Silberschatz, dan kawan-kawan menambahkan b
 ## Manajemen Berkas
 
 <p align="center">
-    <img src="Foto2/fileberkas.JPG" >
+    <img src="Foto2/fileberkas.jpg" >
 </p>
 
 <p align ="justify">
@@ -55,22 +55,22 @@ Dan juga sistem operasi dapat bertanggung jawab pada hal di bawah ini :</p>
 ## Contoh dari manejemen berkas adalah membuat folder baru.
 
 <p align="center">
-    <img src="Foto2/gambar1.PNG" >
+    <img src="Foto2/gambar1.png" >
 </p>
 
 - Buka file explorer
 <p align="center">
-    <img src="Foto2/Gambar2.PNG" >
+    <img src="Foto2/Gambar2.png" >
 </p>
 
 - Untuk membuat folder baru pilih new folder pada bagian atas 
 <p align="center">
-    <img src="Foto2/Gambar3.PNG" >
+    <img src="Foto2/Gambar3.png" >
 </p>
 
 - Ketikkan Nama folder sesuai format yang di inginkan
 <p align="center">
-    <img src="Foto2/Gambar4.PNG" >
+    <img src="Foto2/Gambar4.png" >
 </p>
 - Folder baru dengan nama yang sudah dibuat 
 
@@ -79,7 +79,7 @@ Dan juga sistem operasi dapat bertanggung jawab pada hal di bawah ini :</p>
 
 ## Jaringan
 <p align="center">
-    <img src="Foto2/jaringan.PNG" >
+    <img src="Foto2/jaringan.png" >
 </p>
 
 
