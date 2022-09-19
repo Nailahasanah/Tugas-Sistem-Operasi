@@ -3,10 +3,33 @@
 
 <br>
 
-## Tugas 3 Sistem Operasi
+<center>
+
+ # Tugas 3 Sistem Operasi
+</center>
+
+<br>
+<br>
+
+
+
 
 # 1.Komponen Sistem Operasi
 
+Sebuah sistem operasi dapat dibagi menjadi beberapa komponen. Secara umum, para pakar sepakat bahwa terdapat sekurangnya empat komponen manajeman utama yaitu: 
+- Manajemen Proses, 
+- Manajemen Memori, dan 
+- Manajamen Sistem Berkas. 
+- Manajemen Masukan/Keluaran
+
+Selain keempat komponen di atas, Avi Silberschatz, dan kawan-kawan menambahkan beberapa komponen seperti: 
+- Manajemen Penyimpanan Sekunder. 
+- Manajemen Sistem Proteksi. 
+- Manajemen Jaringan. 
+- Command-Interpreter System. 
+
+
+*Berikut Contoh Komponen yang ada pada laptop saya :*
 ## Manajemen Berkas
 
 <p align="center">
@@ -77,12 +100,19 @@ Processor tersebut juga telah tersambung melalui jaringan komunikasi. Sistem yan
     <img src="Foto2/wifi.PNG" >
 </p>
 
-## Command-Interpreter System
+## Command-Interpreter-System
 <p align ="justify">
 Suatu sistem operasi akan menunggu instruksi dari command driven atau pengguna. Programnya akan membaca sejumlah instruksi dan juga akan mengartikan control statements yang biasanya juga disebut sebagai control-card interpreter, command-line interpreter, dan UNIX shell.</p>
 
 <p align ="justify">
 Command Interpreter System ini juga memiliki banyak sekali variasi dari suatu sistem operasi ke sistem operasi yang lainnya dan dapa disesuaikan dengan teknologi input dan output device yang tersedia juga tujuannya. Contohnya yaitu seperti Pen-based (touch, CLI, Windows, dan lain sebagainya.</p>
+
+## - Contoh CLI 
+
+<p align="center">
+    <img src="Foto2/cli.PNG" >
+</p>
+<br>
 
 # 2.Layanan Sistem Operasi
 
@@ -101,9 +131,20 @@ Layanan sistem operasi dirancang untuk membuat pemrograman menjadi lebih mudah.
 <p align ="justify">
 6. Deteksi Error. Sistem operasi harus selalu waspada terhadap kemungkinan error. Error dapat terjadi di CPU dan memori perangkat keras, Masukan/Keluaran, dan di dalam program yang dijalankan pengguna. Untuk setiap jenis error sistem operasi harus bisa mengambil langkah yang tepat untuk mempertahankan jalannya proses komputasi. Misalnya dengan menghentikan jalannya program, mencoba kembali melakukan operasi yang dijalankan, atau melaporkan kesalahan yang terjadi agar pengguna dapat mengambil langkah selanjutnya. </p>
 
+### Layanan Sistem Operasi: Mempertahankan efisiensi sistem 
+<p align ="justify">
+- Alokasi Sumber Daya. Ketika beberapa pengguna menggunakan sistem atau beberapa program dijalankan secara bersamaan, sumber daya harus dialokasikan bagi masing-masing pengguna dan program tersebut. </p>
+<p align ="justify">
+- Accounting. Kita menginginkan agar jumlah pengguna yang menggunakan sumber daya, dan jenis sumber daya yang digunakan selalu terjaga. Untuk itu maka diperlukan suatu perhitungan dan statistik. Perhitungan ini diperlukan bagi seseorang yang ingin merubah konfigurasi sistem untuk meningkatkan pelayanan. </p>
+<p align ="justify">
+- Proteksi. Layanan proteksi memastikan bahwa segala akses ke sumber daya terkontrol. Dan tentu saja keamanan terhadap gangguan dari luar sistem tersebut. Keamanan bisa saja dilakukan dengan terlebih dahulu mengidentifikasi pengguna. Ini bisa dilakukan dengan meminta password bila ingin menggunakan sumber daya. </p>
 
 
 # 3. Sistem Call
+
+<p align="center">
+    <img src="Foto2/sistemcall.PNG" >
+</p>
 <p align ="justify">
 Biasanya tersedia sebagai instruksi bahasa assembly. Beberapa sistem mengizinkan system calls dibuat langsung dari program bahasa tingkat tinggi. Beberapa bahasa pemrograman (contoh: C, C++) telah didefenisikan untuk menggantikan bahasa assembly untuk sistem pemrograman. </p>
 
