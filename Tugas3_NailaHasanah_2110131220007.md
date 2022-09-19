@@ -60,17 +60,17 @@ Dan juga sistem operasi dapat bertanggung jawab pada hal di bawah ini :</p>
 
 - Buka file explorer
 <p align="center">
-    <img src="Foto2/Gambar2.png" >
+    <img src="Foto2/gambar2.png" >
 </p>
 
 - Untuk membuat folder baru pilih new folder pada bagian atas 
 <p align="center">
-    <img src="Foto2/Gambar3.png" >
+    <img src="Foto2/gambar3.png" >
 </p>
 
 - Ketikkan Nama folder sesuai format yang di inginkan
 <p align="center">
-    <img src="Foto2/Gambar4.png" >
+    <img src="Foto2/gambar4.png" >
 </p>
 - Folder baru dengan nama yang sudah dibuat 
 
