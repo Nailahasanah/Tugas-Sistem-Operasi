@@ -110,7 +110,7 @@ Command Interpreter System ini juga memiliki banyak sekali variasi dari suatu si
 ## - Contoh CLI 
 
 <p align="center">
-    <img src="Foto2/cli.png" >
+    <img src="Foto2/cli.PNG" >
 </p>
 <br>
 
