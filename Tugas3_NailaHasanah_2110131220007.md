@@ -97,7 +97,7 @@ Processor tersebut juga telah tersambung melalui jaringan komunikasi. Sistem yan
 
 **Contoh  Jaringan pada laptop saya**
 <p align="center">
-    <img src="Foto2/wifi.PNG" >
+    <img src="Foto2/wifi.png" >
 </p>
 
 ## Command-Interpreter-System
@@ -110,7 +110,7 @@ Command Interpreter System ini juga memiliki banyak sekali variasi dari suatu si
 ## - Contoh CLI 
 
 <p align="center">
-    <img src="Foto2/cli.PNG" >
+    <img src="Foto2/cli.png" >
 </p>
 <br>
 
@@ -143,7 +143,7 @@ Layanan sistem operasi dirancang untuk membuat pemrograman menjadi lebih mudah.
 # 3. Sistem Call
 
 <p align="center">
-    <img src="Foto2/sistemcall.PNG" >
+    <img src="Foto2/sistemcall.png" >
 </p>
 <p align ="justify">
 Biasanya tersedia sebagai instruksi bahasa assembly. Beberapa sistem mengizinkan system calls dibuat langsung dari program bahasa tingkat tinggi. Beberapa bahasa pemrograman (contoh: C, C++) telah didefenisikan untuk menggantikan bahasa assembly untuk sistem pemrograman. </p>
