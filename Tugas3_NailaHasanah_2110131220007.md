@@ -110,7 +110,7 @@ Command Interpreter System ini juga memiliki banyak sekali variasi dari suatu si
 ## - Contoh CLI 
 
 <p align="center">
-    <img src="Foto2/cli.png" >
+    <img src="Foto2/gambar5.png" >
 </p>
 <br>
 
@@ -143,7 +143,7 @@ Layanan sistem operasi dirancang untuk membuat pemrograman menjadi lebih mudah.
 # 3. Sistem Call
 
 <p align="center">
-    <img src="Foto2/sistemcall.png" >
+    <img src="Foto2/gambar6.png" >
 </p>
 <p align ="justify">
 Biasanya tersedia sebagai instruksi bahasa assembly. Beberapa sistem mengizinkan system calls dibuat langsung dari program bahasa tingkat tinggi. Beberapa bahasa pemrograman (contoh: C, C++) telah didefenisikan untuk menggantikan bahasa assembly untuk sistem pemrograman. </p>
