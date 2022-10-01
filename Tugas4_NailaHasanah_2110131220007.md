@@ -27,7 +27,7 @@ dua bagian, yaitu device driver dan interface, yang kemudian terus berkembang se
 perkembangan UNIX. Berikut ini adalah skema struktur UNIX.</p>
 
 <p align="center">
-    <img src="Foto3/gambar1.png" >
+    <img src="foto3/gambar1.png" >
 </p>
 
 Kelebihan Struktur Sederhana:
@@ -152,7 +152,7 @@ dia mengirimkan pesan ke process server.</p>
 
  
 <p align="center">
-    <img src="Foto3/gambar2.png" >
+    <img src="foto3/gambar2.png" >
 </p>
 
 **kelebihan kernel mikro:**
